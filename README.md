@@ -16,3 +16,4 @@ The files ui.R and server.R provide the frontend and backend code, respectively 
 
 File names of the form *___gram_5_table_short.csv* contain n-grams of a particular token length (e.g. bi_gram refers to pairs of tokens). The file name includes "short" as the original database of n-grams was too large for R Shiny to support
 
+**Note:** n-gram tables represent text sampled from a larger data set of ~3 million lines. 10% of this data set was sampled to achieve the 30k lines used for training. The original text files, the code used to randomly sample the files, and the code used to create the "short" n-gram tables have not been included in this repo at the moment.
